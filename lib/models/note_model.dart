@@ -11,3 +11,8 @@ class NoteModel {
     required this.color,
   });
 }
+
+
+
+/*  start ms-settings:developers
+to open settings.*/
