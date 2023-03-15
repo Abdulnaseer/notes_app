@@ -13,6 +13,7 @@ class NotesView extends StatelessWidget {
       create: (context) => NotesCubit(),
       child: Scaffold(
         body: const NotesViewBody(),
+        resizeToAvoidBottomInset: false,
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             showModalBottomSheet(
